@@ -1,0 +1,74 @@
+<html> 
+    <head>
+        <title>MY CONTACT</title>
+    </head>
+
+    <body>
+        <h1>My Contact</h1>
+<nav>
+ <a href="about.html">Home</a> |
+ <a href="saya.html">About</a> |
+ <a href="project.html">Project</a> |
+ <a href="contact.html">Contact</a> |
+ </nav>
+ <hr>
+ <h2>Informasi Kontak</h2>
+ <p>Jika anda ingin berdiskusi,endors silahkan Isi Form di bawah ini.<br> anda juga dapat menghubungi saya di email <a href="mailto:mushafasyauki19@student.upi.edu">mushafasyauki19@student.upi.edu</a></p>
+ <h2>Form Pesan</h2>
+   <table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th colspan="10">Form Data Contact</th>
+    </tr>
+    <tr>
+      <td>Nama Lengkap:</td>
+      <td><input type="text" name="nama" size="50"></td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td><input type="email" name="email" size="50"></td>
+    </tr>
+    <tr>
+      <td>No Telepon:</td>
+      <td><input type="tel" name="telepon" size="50"></td>
+    </tr>
+    <tr>
+      <td>Jenis Kelamin:</td>
+      <td>
+        <input type="radio" id="laki-laki" name="jenis_kelamin" value="L" required>
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="P">
+        <label for="perempuan">Perempuan</label><br><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Tanggal Lahir:</td>
+      <td><input type="date" name="tanggal_lahir" required></td>
+    </tr>
+    <tr>
+        <td>Topik Pesan:</td>
+        <td>
+            <select name="topik_pesan" required>
+                <option value="">Pilih Topik</option>
+                <option value="pertanyaan">Endors</option>
+                <option value="saran">Meeting</option>
+                <option value="kritik">Surat Permohonan</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+      <td>Jenis Pesan</td>
+      <td>
+        <input type="radio" id="Saran" name="jenis_pesan" value="Saran" required>
+        <label for="Saran">Saran</label>
+        <input type="radio" id="Meeting" name="jenis_pesan" value="Meeting">
+        <label for="Meeting">Meeting</label>
+        <input type="radio" id="Surat Permohonan" name="jenis_pesan" value="Surat Permohonan">
+        <label for="Surat Permohonan">Surat Permohonan</label>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="submit" value="Kirim"></td>
+    </tr>
+  </table>
+</body>
+</html>
